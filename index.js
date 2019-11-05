@@ -209,6 +209,8 @@ exports.Socket = Socket;
 
 exports.SocketLevel = raw.SocketLevel;
 exports.SocketOption = raw.SocketOption;
+exports.SOL_SOCKET = raw.SOL_SOCKET;
+exports.SO_BINDTODEVICE = raw.SO_BINDTODEVICE;
 
 exports.htonl = raw.htonl;
 exports.htons = raw.htons;
